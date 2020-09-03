@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.stuff",
+      "nativeLanguage": "ru"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "usefullstuff",
+    "packageName": "org.stuff",
+    "packageFolder": "org/stuff",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "jwtSecretKey": "N2FhMmJjNWE5YWI4OGU1ZWI4MmQ1MmI4Zjc2MGFjNDcxZDAzZjQxMmM5ODMxNDg5YzM1NmY3YTdmYzgyZDg3NTNjYmJjMmY2OTA4M2UxOWVkNWFkOGM0MTlhODhhMDA4ODU0ZGVkODVkNDllNTQzMmI4YmNlZmJhYTc4MzkwN2Q=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1599161001628,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "0.1.6"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ru",
+    "languages": ["ru"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "0.1.6"
+      }
+    ]
+  }
+}
