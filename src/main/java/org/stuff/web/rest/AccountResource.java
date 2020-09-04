@@ -36,6 +36,7 @@ import org.slf4j.LoggerFactory;
 @Consumes(MediaType.APPLICATION_JSON)
 @RequestScoped
 public class AccountResource {
+
     private final Logger log = LoggerFactory.getLogger(AccountResource.class);
 
     private static class AccountResourceException extends RuntimeException {
